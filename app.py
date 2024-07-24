@@ -1,7 +1,8 @@
 import streamlit as st
 
 def hitung_luas(p, l):
-    return p * l
+    hasil = p * l
+    return hasil
 
 with st.form("luas"):
     panjang = st.text_input("Panjang:")
